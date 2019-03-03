@@ -36,6 +36,20 @@
 			    </descriptorRefs>
 			</configuration>
 		    </plugin>
+			<plugin>
+      <!-- Build an executable JAR -->
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-jar-plugin</artifactId>
+      <configuration>
+        <archive>
+          <manifest>
+            <addClasspath>true</addClasspath>
+            <classpathPrefix>lib/</classpathPrefix>
+            <mainClass>bot.main.Main</mainClass>
+          </manifest>
+        </archive>
+      </configuration>
+    </plugin>
 		</plugins>
 	</build>
 	<properties>
