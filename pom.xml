@@ -43,8 +43,6 @@
       <configuration>
         <archive>
           <manifest>
-            <addClasspath>true</addClasspath>
-            <classpathPrefix>lib/</classpathPrefix>
             <mainClass>bot.main.Main</mainClass>
           </manifest>
         </archive>
