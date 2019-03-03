@@ -22,6 +22,7 @@ public class Main extends ListenerAdapter{
 	private static DinBuilder builder;
 
 	public static void main(String[] args) throws LoginException, InterruptedException {
+		System.out.println("TESTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT");
 		CommandClientBuilder commandClientBuilder = new CommandClientBuilder();
 		commandClientBuilder.setOwnerId(System.getenv("DC_ID"));
         commandClientBuilder.setPrefix(">");
