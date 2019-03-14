@@ -8,7 +8,6 @@
 	<packaging>jar</packaging>
 
 	<build>
-		<sourceDirectory>Main/src/main/java</sourceDirectory>
 		<plugins>
 		    <plugin>
 			<groupId>org.apache.maven.plugins</groupId>
